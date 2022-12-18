@@ -1,0 +1,90 @@
+.fishlistimg {
+  height: 450px;
+  width: 800px;
+  object-fit: cover;
+  padding-bottom: 30px;
+
+}
+
+.fishdetailimg {
+  height: 450px;
+  width: 800px;
+  object-fit: cover;
+}
+
+
+.fishdetailtext {
+  margin-top: 3%;
+  font-size: 30px;
+  margin-left: 50px;
+
+
+
+}
+
+.list {
+  font-weight: 500;
+  font-size: 25px;
+  list-style-type: none;
+  margin-left: 50px;
+  
+}
+
+.type {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+.typetext{
+  font-size: 30px;
+  color: black;
+  font-weight: 1000;
+}
+
+.typelist {
+padding: 500px;
+
+
+}
+
+.button-text{
+  text-decoration:none;
+}
+
+.button {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: #00B4D8;
+  border: 2px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 750;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 25px;
+}
+
+.button:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
+  box-shadow: none;
+}
