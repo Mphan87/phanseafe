@@ -1,8 +1,8 @@
 import axios from "axios";
 
-// const BASE_API_URL = "http://localhost:3001" || "https://phanseadb.herokuapp.com";
+const BASE_API_URL = "https://phanseadb.herokuapp.com";
 
-const BASE_API_URL = process.env.BASE_API_URL || "http://localhost:3001";
+// const BASE_API_URL = process.env.BASE_API_URL || "http://localhost:3001";
 
 
 /* 
