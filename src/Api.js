@@ -1,10 +1,7 @@
 import axios from "axios";
 
-const BASE_API_URL = process.env.BASE_API_URL || "http://localhost:3001";
+const BASE_API_URL = "https://phanseadb.herokuapp.com/";
 
-
-
-// https://phanseadb.herokuapp.com/
 
 /* 
   json-server will give you CRUD endpoints on snacks and drinks.
