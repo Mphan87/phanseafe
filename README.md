@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+### Title of Website:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Phansea
+
+### Describe what your website does
+
+It's website where users can look at different types of fish and corals.
+
+### List the features you implemented and explain why you chose those features to implement
+
+So far, users are only able to look up different fish and corals that are suitable for aquariums. I plan to impliment a features where users can create their own fishtank by selecting fish and corals they want from the list and share it with other members.
 
 ## Available Scripts
 
@@ -8,63 +16,102 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Or open https://phanseafe.herokuapp.com/ to view on Heroku
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
-### `npm run build`
+### Walk someone through the standard user flow for the website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users can register for an account to gain full access to the website.
+Registered users can view all fish and corals on the database and also create a new fish or coral.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Keep the API in there, and if you have anything to say about the API then
+add some notes. If you have created your own API, please document the
+process.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Routes:
 
-### `npm run eject`
+### Local: http://localhost:3001/saltwaterfish
+### Heroku: https://phanseadb.herokuapp.com/saltwaterfish
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+get a list of all saltwaterfish
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Local: http://localhost:3001/saltwaterfish/?type={type}
+### Heroku: https://phanseadb.herokuapp.com/saltwaterfish/?type={type}
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a list of specific type of fish. Please see the available types below
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+type:
+tangs
+Damselfish
+Angelfish_large
+Angelfish_dwarf"
+Anthias
+Blennies"
+Clownfish
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Local: http://localhost:3001/saltwaterfish/{handle}
+### Heroku: https://phanseadb.herokuapp.com/saltwaterfish/{handle}
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+to get a more details on a specific handle
 
-### Code Splitting
+### http://localhost:3001/corals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+get a list of all corals
 
-### Analyzing the Bundle Size
+### http://localhost:3001/coral/?type={type}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a list of specific type of coral. Please see the available types below
 
-### Making a Progressive Web App
+type:
+LPS
+SPS
+Zoanthids
+Mushrooms
+Anemones
+Soft
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### http://localhost:3001/coral/{handle}
 
-### Advanced Configuration
+to get a more details on a specific handle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### http://localhost:3001/freshwaterfish
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+get a list of all corals
 
-### `npm run build` fails to minify
+### http://localhost:3001/freshwaterfish/?type={type}
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To get a list of specific type of coral. Please see the available types below
+
+type:
+Lake-Malawi"
+South-American-cichlids"
+Loaches"
+Live-bearers
+Tetras
+Central-American-cichlids
+
+### http://localhost:3001/freshwaterfish/{handle}
+
+to get a more details on a specific handle
+
+
+### Identify the technology stack used to create your website
+
+Backend: Node JS - Express
+Frontend: React
+
+
+
+
+
+
+
+
+
+#

@@ -7,15 +7,11 @@ function FishList({ fishes }) {
   let items = fishes
   let link = 'saltwaterfish';
 
-
-
   return (
     <section>
-
       <button className="button">
         <NavLink to="/createswfish" className="button-text">ADD SALTWATER FISH</NavLink>
       </button>
-
       <div>
         {items.map(item => (
           <Link to={`/${link}/${item.handle}`} key={item.handle}>
@@ -23,11 +19,8 @@ function FishList({ fishes }) {
             </li>
           </Link>
         ))}
-
       </div>
     </section>
-
-
   );
 }
 

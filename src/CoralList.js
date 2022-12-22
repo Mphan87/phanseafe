@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-
-
 import {
     Card,
     CardBody,
@@ -11,7 +9,6 @@ import {
     ListGroupItem
   } from "reactstrap";
   
-
 function CoralList({corals}) {
 
     let items = corals
@@ -30,7 +27,6 @@ function CoralList({corals}) {
               <Link to={`/${link}/${item.handle}`} key={item.handle}>
                 <ListGroupItem className="list">{item.name}
                 </ListGroupItem>
-  
               </Link>
             ))}
   

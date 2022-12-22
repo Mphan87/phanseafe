@@ -4,14 +4,6 @@ const BASE_API_URL = "https://phanseadb.herokuapp.com";
 
 // const BASE_API_URL = process.env.BASE_API_URL || "http://localhost:3001";
 
-
-/* 
-  json-server will give you CRUD endpoints on snacks and drinks.
-  Here we've provided you with a single action to get all drinks.
-
-  You'll need to add to this class as you build features for the app.
-*/
-
 class PhanSeaApi {
 
   static token;
@@ -88,7 +80,6 @@ class PhanSeaApi {
     let res = await this.request(`auth/register`, data, "post");
     return res.token;
   }
-
 }
 
 export default PhanSeaApi;

@@ -3,7 +3,6 @@ import { useParams, Link } from "react-router-dom";
 import {ListGroupItem } from "reactstrap";
 
 
-
 function FWFishType({ fwfishes }) {
 
   let items = fwfishes

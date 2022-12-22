@@ -21,7 +21,6 @@ function FishDetails({ fishes, cantFind }) {
           large={fishhandle.image}
           alt="No Image!"
         />
- 
     </section>
   );
 }

@@ -10,7 +10,7 @@ function FWFishDetails({ fwfishes, cantFind }) {
   if (!fishhandle) return <Navigate to={cantFind} />;
 
   return (
-    <section className = "fishdetailtext">
+    <section className="fishdetailtext">
 
       <p><b>Name:</b> {fishhandle.name}</p>
       <p><b>Type:</b> {fishhandle.type}</p>
@@ -20,7 +20,7 @@ function FWFishDetails({ fwfishes, cantFind }) {
         small={fishhandle.image}
         large={fishhandle.image}
         alt="No Image!"
-/>
+      />
     </section>
   );
 }

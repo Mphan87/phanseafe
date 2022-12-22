@@ -2,9 +2,6 @@ import React from "react";
 import { Navigate, useParams } from "react-router-dom";
 import ModalImage from "react-modal-image";
 
-
-
-
 function CoralDetails({ corals, cantFind }) {
   const { handle } = useParams();
 
